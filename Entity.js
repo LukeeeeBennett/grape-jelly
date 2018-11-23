@@ -1,3 +1,13 @@
+import NotImplementedError from './NotImplementedError';
+
+function isString(object) {
+  return object instanceof String;
+}
+
+function isFunction(object) {
+  return object instanceof Function;
+}
+
 class Entity {
   constructor() {
     this.exposables = new Map();
