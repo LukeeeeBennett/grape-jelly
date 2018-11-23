@@ -14,7 +14,7 @@ You must implement a `define` method that defines the entity using
 class UserEntity extends Entity {
   define() {
     this.expose('username', { as: 'not_username' });
-    this.expose('password', test => test.notPassword);
+    this.expose('password', user => user.notPassword);
   }
 }
 ```
