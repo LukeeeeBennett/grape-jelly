@@ -1,6 +1,6 @@
 {
   "name": "@lbennett/grape-jelly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript serializer library inspired by ruby-grape/grape-entity",
   "main": "index.js",
   "repository": "git@gitlab.com:lbennett/grape-jelly.git",
